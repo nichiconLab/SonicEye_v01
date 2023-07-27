@@ -7,10 +7,9 @@
 #include <math.h>
 #include "Radar.h"
 
-//#define SCAN_RANGE (2.0)
-//#define SCAN_SCALE 85
-#define SCAN_RANGE (1.0)
-#define SCAN_SCALE 160
+
+#define SCAN_RANGE (1.0)  //1.0m
+#define SCAN_SCALE 160    //r = 160pixels
 
 void System_Init();
 void System_Loop();

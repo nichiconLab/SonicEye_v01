@@ -18,8 +18,6 @@ typedef struct{
 void Radar_Init();
 uint16_t Radar_Scan(uint8_t deg);
 RadarInfo_t Radar_Scan2(uint8_t deg);
-void Radar_Init3();
-RadarInfo_t Radar_Scan3(uint8_t deg);
 
 
 #endif
